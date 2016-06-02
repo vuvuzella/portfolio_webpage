@@ -10,9 +10,20 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: #333;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    # background-color: #333;
+    # padding-bottom: 20px;
+}
+
+html {
+    background-image: url("../img/lights.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
 }
 
 body {
@@ -21,17 +32,41 @@ body {
     text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
-header {
-    background-image: url("../img/lights.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    padding-bottom: 50px;
-    padding-top: 300px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: white;
+# body{
+#     # padding-bottom: 50px;
+#     # padding-top: 250px;
+#     text-align: center;
+#     color: white;
+#     height: 100%;
+# }
+
+#divHeader {
+  background-color: rgba(0, 0, 0, 0);
+  height: 100%;
+}
+
+#divAbout,
+#divContact{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+#divWorksProjects{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-color: rgba(169, 169, 169, 0.5);
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+#profile-picture {
+  border-width: 5px;
+  border-color: #AAA;
+  border-style: solid;
+  border-radius: 50%;
+  # margin: -200px auto 20px auto;
+  margin: 100px auto 20px auto;
 }
